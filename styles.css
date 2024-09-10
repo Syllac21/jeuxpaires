@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px);
+    height: 300px;
+    margin: auto;
+    
+}
+.carte{
+    
+    width: 95px;
+    justify-content: center;
+    margin: auto;
+}
+
+img{
+    width: 90px;
+    display: block;
+}
+button{
+    margin-top: 50px;
+}
+
+.hidden{
+    display: none;
+}
