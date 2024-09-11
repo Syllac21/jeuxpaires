@@ -11,7 +11,18 @@
 <body>
     <main>
         <h1>Jeux de paires</h1>
-        <div class="container">
+        <!--choix de la difficulté-->
+        <div id="zoneChoix">
+            <h2>Choix du niveau</h2>
+            <input type="radio" name="level" id="beginner" value="2">
+            <label for="beginner">Débutant</label>
+            <input type="radio" name="level" id="intermediate" value="4">
+            <label for="intermediate">Intermédiaire</label>
+            <input type="radio" name="level" id="expert" value="6" checked>
+            <label for="expert">Expert</label>
+        </div>
+        <!-- zone de jeu-->
+        <div class="container expert" id="zoneJeux">
             <div class="carte" id="0">
                 <img src="/images/verso.jpg" id="verso0" alt="verso de carte">
             </div>
@@ -50,7 +61,46 @@
             </div>
 
         </div>
+        <div id="chrono">00</div>
+
+        <!-- bouton recommencer -->
         <button id="recommencer">recommencer</button>
+        <div class="zoneScore">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Expert</th>
+                    </tr>
+                    <tr>
+                        <th>nom</th>
+                        <th>score</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="classementNom">premier</td>
+                    <td class="classementScore">15</td>
+                </tr>
+                <tr>
+                    <td class="classementNom">premier</td>
+                    <td class="classementScore">15</td>
+                </tr>
+                <tr>
+                    <td class="classementNom">premier</td>
+                    <td class="classementScore">15</td>
+                </tr>
+                <tr>
+                    <td class="classementNom">premier</td>
+                    <td class="classementScore">15</td>
+                </tr>
+                <tr>
+                    <td class="classementNom">premier</td>
+                    <td class="classementScore">15</td>
+                </tr>
+            </table>
+
+        </div>
     </main>
+    
 </body>
 </html>

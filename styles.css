@@ -2,8 +2,10 @@ body{
     text-align: center;
     width: 80%;
     margin: auto;
+    background-image:url("/images/background.webp") ;
+    background-size: cover;
 }
-.container{
+.expert{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
@@ -12,6 +14,27 @@ body{
     margin: auto;
     
 }
+
+.intermediate{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px);
+    height: 300px;
+    margin: auto;
+    
+}
+
+.beginner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px);
+    height: 300px;
+    margin: auto;
+    
+}
+
 .carte{
     
     width: 95px;
@@ -29,4 +52,26 @@ button{
 
 .hidden{
     display: none;
+}
+
+#zoneChoix{
+    padding-bottom: 20px;
+    
+}
+
+table{
+    background-color: black;
+    opacity: 0.6;
+    font-size: large; 
+    color : white;
+}
+
+#chrono{
+    margin-top: 30px;
+    color: white;
+    font-size: xx-large;
+}
+
+#recommencer{
+    font-size: large;
 }
