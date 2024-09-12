@@ -56,7 +56,8 @@ button{
 
 #zoneChoix{
     padding-bottom: 20px;
-    
+    color:#fff;
+    font-weight: bold;
 }
 
 table{
@@ -74,4 +75,19 @@ table{
 
 #recommencer{
     font-size: large;
+}
+
+.titre{
+    color: #fff;
+    -webkit-text-stroke: 0.025em #fff;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
 }
